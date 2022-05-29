@@ -1,0 +1,112 @@
+
+body {
+background-color: pink;
+color: black;
+display: flex;
+flex-direction: column;
+max-height: 100%;
+max-width: 100%;
+margin: auto;
+border: solid;
+}
+ nav{
+  background-color:pink;
+  font-size: 20px;
+  text-align: center;
+}
+nav a{
+  color: black;
+  margin-right: 10px;
+  font-family: 'Italianno', cursive;
+}
+nav a:hover{
+  color:purple;
+}
+.titulo{
+  font-size: 30px;
+  font-family: 'Italianno', cursive;
+}
+.titulo h1{
+  margin-bottom: 0;
+  padding: 0;
+  color: black;
+}
+.titulo h3{
+  margin-top: 0;
+  padding: 0;
+  
+}
+hr{
+  background-color:purple;
+    color:grey;
+  border:solid;
+  width:100%
+}
+
+img{
+  min-height: 200px;
+  min-width: 200px;
+  max-height: 500px;
+  max-width: 500px;
+  border: solid 10px;
+}
+
+.contenido{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.titulo{
+  color:black; 
+}
+
+
+.wrapper h1{
+  text-aling: center;
+  front-size:30px
+  
+}
+.img-gallery{
+  text-transform:uppercase;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  aling-items: center;
+justify-content:center;
+  margin-right: 40px;
+}
+.g.img{
+  padding:0 20px 20px;
+}
+img:hover{
+opacity: .8;
+ transition:.9s; 
+}
+button{
+  blackground-color:black;
+  color:white;
+  font-size: 30px; 
+ 
+}
+
+.soluciones{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+   margin-right: 10px;
+}
+input{
+  height:300px;
+  width:300px;
+  text-aling:top;
+  direction:rtl;
+  font-family: 'Bebas Neue', cursive;
+  margin-left: 40px;
+}
+textarea{
+  height:300px;
+  width:300px
+}
